@@ -61,7 +61,7 @@ async def read_root():
 
             <script>
                 async function connectWallet() {{
-                    const deepLink = `https://metamask.app.link/wc?uri=...`; // Replace with actual deep link for MetaMask Mobile
+                    const deepLink = `https://metamask.app.link/dapp/hdbackend.onrender.com`; // Replace with actual deep link for MetaMask Mobile
                     window.open(deepLink, "_self");
                 }}
 
